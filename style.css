@@ -24,17 +24,27 @@ body {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
-    align-items: center;
 }
 
 .icon-html5{
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-brands{
+    font-size: 2.5rem;
 }
 .name-post{
+    display: inline-block;
 }
 .icon-list{
     display: flex;
     justify-content: flex-end;
+}
+
+.fa-solid{
+    font-size: 2rem;
 }
 
 .post {
@@ -54,6 +64,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    font-size: 2rem;
 }
 
 .icon-action {
