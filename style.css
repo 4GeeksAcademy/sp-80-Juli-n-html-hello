@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad8d8;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.feed {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+.card-user-info {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-html5{
+    justify-content: space-between;
+}
+.name-post{
+}
+.icon-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-post{
+    width: 100%;
+    gap: 1rem;
+    background-size: cover;  
+}
+
+.icon-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.icon-action {
+justify-content: flex-end;
+}
+
+.cars-text {
+    padding: 0 1rem;
+}
